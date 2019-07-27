@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Page - Article Header Overlay Background Fill
-article_header: My First Github Blog Post / 20190727 sat
+title: Page
+article_header: My First Post
   type: overlay
   theme: dark
   background_color: '#123'
