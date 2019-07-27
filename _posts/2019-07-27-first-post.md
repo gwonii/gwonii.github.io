@@ -2,7 +2,6 @@
 title: Gwonii's Blog Post
 ---
 
----
 layout: article
 article_header: Gwonii First Post
   type: overlay
