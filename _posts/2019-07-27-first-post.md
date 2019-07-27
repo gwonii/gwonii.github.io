@@ -1,9 +1,6 @@
 ---
-layout: article
-title: Page
+title: Gwonii's Blog
+tags: TeXt
 ---
 
-안녕 반가워 
-난 gwonii라고 해 
-
----
+안녕!
