@@ -1,13 +1,13 @@
 ---
-title: Gwonii's Blog Post
----
-
 layout: article
-article_header: Gwonii First Post
+title: My First Post
+article_header:
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
 ---
 
-안녕 반가워~ 
+이렇게 포스팅을 하게 되다니 영광입니다. 
+
+---
