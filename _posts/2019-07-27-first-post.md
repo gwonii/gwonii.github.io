@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Page - Single
+title: Page
 ---
 
 안녕 반가워 
