@@ -20,7 +20,7 @@ article_header:
 
 그래서 앞으로 자주 쓰게 될 코드에 대해서 간단히 구분하려고 한다.
 
-**1) 클릭 이벤트 리스너 객체에 대한 참조 **
+**1) 클릭 이벤트 리스너 객체에 대한 참조**
 
 ```java
 protected OnclickListener mOnClickListener;
@@ -34,7 +34,7 @@ public interface OnClickListener {
 }
 ```
 
-**3) 클릭 이벤트 리스너를 지정하는 함수 **
+**3) 클릭 이벤트 리스너를 지정하는 함수**
 
 ```java
 public void setOnClickListener(OnClickListener I){
@@ -135,7 +135,7 @@ protected class MyButton extends View {
 >
 > MyButton은 View의 상속을 받고 있다. 그렇기 때문에 onTouch() 메소드를 내가 원하는대로  오버라이딩 하여 사용할 수 있다. 
 
-**콜백 함수 **
+**콜백 함수**
 
 - 이벤트가 발생하면 특정 메소드를 호출해 알려준다. (1개)
 - caller가 callee를 부르는 것이 아닌, callee가 caller를 부르는 것이다. 
