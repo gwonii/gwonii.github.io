@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Andorid - 여러가지 방법으로 이벤트 처리하기
+title: (Andorid) - 여러가지 방법으로 이벤트 처리하기 
 article_header:
   type: overlay
   theme: dark
@@ -175,9 +175,9 @@ view1.setOnTouchListener(new View.OnTouchListener() {
 >
 > **1. 버튼 클릭 이벤트를 처리하는 몇 가지 방법** : <https://recipes4dev.tistory.com/55>
 >
-> **2. 안드로이드 버튼 기본 사용법 ** : [https://recipes4dev.tistory.com/54#23-button-%ED%81%B4%EB%A6%AD%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%B2%98%EB%A6%AC](https://recipes4dev.tistory.com/54#23-button-클릭에-대한-이벤트-처리)
+> **2. 안드로이드 버튼 기본 사용법** : [https://recipes4dev.tistory.com/54#23-button-%ED%81%B4%EB%A6%AD%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%B2%98%EB%A6%AC](https://recipes4dev.tistory.com/54#23-button-클릭에-대한-이벤트-처리)
 >
 > **3. EVENT 처리 방법 (LISTENER)** : <https://sdw8001.tistory.com/61>  
 >
-> **4. android devloper - View.OnClickListener ** : <https://developer.android.com/reference/android/view/View.OnClickListener>
+> **4. android devloper - View.OnClickListener** : <https://developer.android.com/reference/android/view/View.OnClickListener>
 
