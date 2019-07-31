@@ -1,6 +1,6 @@
 ---
 layout: article
-title: [Andorid] - 여러가지 방법으로 이벤트 처리하기
+title: Andorid - 여러가지 방법으로 이
 article_header:
   type: overlay
   theme: dark
