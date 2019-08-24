@@ -1,6 +1,6 @@
 ---
 layout: article
-title: (Andorid) - 여러가지 방법으로 이벤트 처리하기 
+title: (Andorid) - 안드로이드에서 쓰레드는 어떻게 사용되는가? 
 article_header:
   type: overlay
   theme: dark
