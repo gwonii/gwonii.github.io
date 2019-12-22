@@ -27,13 +27,17 @@ article_header:
 
 **Unchecked Exception**의 경우 **런타임**에 에러가 발생한다. 그렇기 때문에 코드를 작성하고 컴파일 하는 시간에서는 에러가 나지 않는다. 
 
-
+<img src="../img/Exception/01.PNG" alt="01" style="zoom: 67%;" />
 
 그렇기에 우리는 **Unchecked Exception**을 주의깊게 살펴볼 필요가 있다. 보통 try-catch 또는 try-with-resource를 사용하여 예외를 처리한다. 아니면 예외를 throw하기도 한다. 
 
 하지만 Unchecked Exception의 경우 error가 발생하는지 하지 않는지 알 수 없기 때문에 우리는 새로운 Exception class를 만들어서 직접 예외를 관리해줘야 한다. 
 
+**Checked Exception과 Unchecked Exception 특징**
 
+<img src="../img/Exception/02.PNG" alt="02" style="zoom:67%;" />
+
+**예시**
 
 ```java
 public class Calculator {
@@ -102,7 +106,5 @@ public class ExceptionTest throws DivedeRightValueIsZeroException  {
 ```
 
 위와 같은 식으로 컴파일 타임에 생길 수 있는 에러에 대해서 사용자가 예외 클래스를 정의하여 처리할 수 있다. 
-
-
 
 생각보다 많은 상황속에서 예외가 발생할 수 있다. 코드를 작성할 때에는 생겨날 수 있는 예외에 대해 생각하고 그것에 대한 예외처리를 분명하게 해줘야 한다. 그렇지 않으면 나중에 디버깅 하기가 굉장히 어려워질 수 있다. 
