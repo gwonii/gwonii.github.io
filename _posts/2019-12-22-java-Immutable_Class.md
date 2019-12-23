@@ -1,6 +1,6 @@
 ---
 layout: article
-title: (Java) - 인터페이스 참조하기!    
+title: (Java) - Immutable class 사용기
 article_header:
   type: overlay
   theme: dark
