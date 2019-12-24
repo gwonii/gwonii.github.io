@@ -1,7 +1,10 @@
 ---
 layout: article
 title: (Java) - 사용자 정의 예외처리 사용하기
-tag: exception|gwonii
+tags:
+- exception
+- gwonii
+- daou
 article_header:
   type: overlay
   theme: dark
