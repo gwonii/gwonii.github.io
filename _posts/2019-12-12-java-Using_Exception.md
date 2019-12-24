@@ -1,8 +1,7 @@
 ---
 layout: article
 title: (Java) - 사용자 정의 예외처리 사용하기
-show_tags: true
-tag: exception
+tag: exception, halo, gwnoii
 article_header:
   type: overlay
   theme: dark
