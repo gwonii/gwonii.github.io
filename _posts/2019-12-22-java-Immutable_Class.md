@@ -1,6 +1,6 @@
 ---
 layout: article
-title: (Java) - Immutable class 사용기
+title: Immutable class 사용기
 tags:
 - Java
 - Immutable Class

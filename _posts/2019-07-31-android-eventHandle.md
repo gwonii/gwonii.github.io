@@ -1,6 +1,9 @@
 ---
 layout: article
-title: (Andorid) - 여러가지 방법으로 이벤트 처리하기 
+title: 여러가지 방법으로 이벤트 처리하기 
+tags:
+- Android
+- Event Handler
 article_header:
   type: overlay
   theme: dark

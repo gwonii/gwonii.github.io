@@ -1,6 +1,9 @@
 ---
 layout: article
-title: (Andorid) - 안드로이드에서 쓰레드는 어떻게 사용되는가? 
+title: 안드로이드에서 쓰레드는 어떻게 사용되는가? 
+tags:
+- Android
+- Thread
 article_header:
   type: overlay
   theme: dark

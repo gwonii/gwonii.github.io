@@ -1,6 +1,6 @@
 ---
 layout: article
-title: (Java) - 인터페이스 참조하기!
+title: 인터페이스 참조하기!
 tags:
 - Java
 - Effective Java   

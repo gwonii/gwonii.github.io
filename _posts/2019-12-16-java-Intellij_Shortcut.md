@@ -1,6 +1,6 @@
 ---
 layout: article
-title: (Java) - 내가 자주 사용하는 intellij 단축키 모음  
+title: 내가 자주 사용하는 intellij 단축키 모음  
 tags:
 - Java
 - Shortcut
