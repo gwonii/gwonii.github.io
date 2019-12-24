@@ -1,6 +1,8 @@
 ---
 layout: article
 title: (Java) - 오픈소스를 준비하자   
+tags:
+- Open Source
 article_header:
   type: overlay
   theme: dark

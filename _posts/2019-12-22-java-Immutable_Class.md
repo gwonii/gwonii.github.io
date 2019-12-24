@@ -1,6 +1,9 @@
 ---
 layout: article
 title: (Java) - Immutable class 사용기
+tags:
+- Java
+- Immutable Class
 article_header:
   type: overlay
   theme: dark

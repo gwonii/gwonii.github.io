@@ -1,6 +1,9 @@
 ---
 layout: article
-title: (Java) - 인터페이스 참조하기!    
+title: (Java) - 인터페이스 참조하기!
+tags:
+- Java
+- Effective Java   
 article_header:
   type: overlay
   theme: dark
