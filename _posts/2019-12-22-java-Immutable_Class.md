@@ -16,6 +16,8 @@ immutable은 무엇인가? 이전에 코드를 작성하면서 java 에도 val�
 <!--more-->
 ---
 
+
+
 ## Immutable이란? 
 
 **Immutable class란 변경이 불가능한 클래스이며, 가변적이지 않은 클래스이다.** 
