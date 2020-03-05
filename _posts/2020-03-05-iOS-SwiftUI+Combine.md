@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Immutable class 사용기
+title: SwiftUI와 Combine 체험기
 tags:
 - iOS
 - SwiftUI
