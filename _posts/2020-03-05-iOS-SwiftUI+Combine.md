@@ -10,9 +10,9 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
----
 
 2019년 SwiftUI가 발표되면서 `Combine`이라는 프레임워크가 함께 출시되었다. 하지만 SwiftUI가 굉장히 혁신적이었기에 큰 인기를 얻었지만, 상대적으로 Combine은 주목받지 못했다. 그래서 오늘은 SwiftUI와 함께 쓰이는 Combine에 대해 알아보는 시간을 가져보도록 하자. 
+---
 
 <!--more-->
 ---
@@ -123,3 +123,7 @@ struct ContentView_Previews: PreviewProvider {
 * **Publisher** : 
 * **Subscriber** : 
 * **Operator** : 
+
+
+
+>  [원문 출처 - SwiftUI + Combine (feat. Peter Friese)](https://peterfriese.dev/swift-combine-love/)
