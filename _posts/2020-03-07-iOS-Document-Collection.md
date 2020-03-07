@@ -14,7 +14,7 @@ article_header:
 
 내가 iOS 개발을 하면서 자주 사용하는 Document들을 정리해보았다. 이제 더 이상 내 즐겨찾기에서 페이지를 찾기가 너무 힘들다. 그래서 만들었다 .
 
-<!—more—>
+<!--more-->
 
 # iOS Document Collection
 
