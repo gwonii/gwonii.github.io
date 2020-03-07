@@ -22,7 +22,9 @@ article_header:
 
 ### Hacking With SWIFT
 
-![HackingWithSwift](../img/iOS-Document-Collection/HackingWithSWIFT.png)
+![HackingWithSwift](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/HackingWithSWIFT.png>)
+
+
 
 > <https://www.hackingwithswift.com/>
 
@@ -32,7 +34,7 @@ article_header:
 
 ### raywenderlich
 
-![raywenderlich](../img/iOS-Document-Collection/raywenderlich.png)
+![raywenderlich](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/raywenderlich.png>)
 
 > <https://www.raywenderlich.com/4001741-swiftui>
 
@@ -44,7 +46,7 @@ SwiftUI에 대한 정보를 얻고자 할 때 자주 사용하는 페이지이�
 
 ### Zedd's Blog
 
-![Zedd](../img/iOS-Document-Collection/Zedd.png)
+![Zedd](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/Zedd.png>)
 
 > <https://zeddios.tistory.com/category/iOS>
 
@@ -54,7 +56,7 @@ SwiftUI에 대한 정보를 얻고자 할 때 자주 사용하는 페이지이�
 
 ### yagom's Blog
 
-![yagom](../img/iOS-Document-Collection/yagom.png)
+![yagom](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/yagom.png>)
 
 > <https://blog.yagom.net/>
 
@@ -70,7 +72,7 @@ SwiftUI에 대한 정보를 얻고자 할 때 자주 사용하는 페이지이�
 
 ### Swift.org
 
-![Swift](../img/iOS-Document-Collection/Swift.png)
+![Swift](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/Swift.png>)
 
 > <https://swift.org/>
 
@@ -80,7 +82,7 @@ Swift 공식 문서… 제일 많이 봐야 하는 페이지임에도 불구하�
 
 ### Apple 공식 Documentation Archive
 
-![iOS-Document-Archive](../img/iOS-Document-Collection/iOS-Document-Archive.png)
+![iOS-Document-Archive](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/iOS-Document-Archive.png>)
 
 > <https://developer.apple.com/library/archive/navigation/#section=Platforms&topic=iOS>
 
@@ -90,7 +92,7 @@ Swift 공식 문서… 제일 많이 봐야 하는 페이지임에도 불구하�
 
 ### Apple Human Design Guide
 
-![iOS-Document-Archive](../img/iOS-Document-Collection/iOS-Document-Archive.png)
+![iOS-Document-Archive](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/iOS-Document-Archive.png>)
 
 > <https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/>
 
@@ -102,7 +104,7 @@ Apple에서 공식적으로 제공해주는 Design Guide.
 
 ### Swift Document (한글판)
 
-![iOS-Document-korea](../img/iOS-Document-Collection/iOS-Document-korea.png)
+![iOS-Document-korea](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/iOS-Document-korea.png>)
 
 > <https://jusung.gitbook.io/the-swift-language-guide/>
 
@@ -112,7 +114,7 @@ Swift 문서들이 한글로!!
 
 ### cocoaPods
 
-![cocoaPods](../img/iOS-Document-Collection/cocoaPods.png)
+![cocoaPods](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/cocoaPods.png>)
 
 > <https://cocoapods.org/>
 
@@ -130,7 +132,7 @@ Swift 문서들이 한글로!!
 
 ### iOS Fonts
 
-![iOS-Fonts](../img/iOS-Document-Collection/iOS-Fonts.png)
+![iOS-Fonts](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/iOS-Fonts.png>)
 
 > <http://iosfonts.com/>
 
@@ -140,7 +142,7 @@ iOS 관련 폰트들을 찾을 수 있는 페이지
 
 ### iOS Libraries
 
-![iOS-Libraries](../img/iOS-Document-Collection/iOS-Libraries.png)
+![iOS-Libraries](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/iOS-Libraries.png>)
 
 > <https://github.com/vsouza/awesome-ios>
 
@@ -150,7 +152,7 @@ iOS 관련 Library들이 깔끔하게 정리되어 있다고 하는데 한 번 �
 
 ### Swift for Beginner
 
-![swift-beginner](../img/iOS-Document-Collection/swift-beginner.png)
+![swift-beginner](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/swift-beginner.png>)
 
 > <https://github.com/ClintJang/awesome-swift-korean-lecture>
 
@@ -160,7 +162,7 @@ iOS 관련 Library들이 깔끔하게 정리되어 있다고 하는데 한 번 �
 
 ### Link for iOS Developer
 
-![Link-For-iOS-Developer](../img/iOS-Document-Collection/Link-For-iOS-Developer.png)
+![Link-For-iOS-Developer](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/Link-For-iOS-Developer.png>)
 
 > <https://github.com/giftbott/iOSDevLinks>
 
@@ -170,7 +172,7 @@ iOS 개발자가 알면 좋은 링크들이라는데,,, 아직 제대로 활용�
 
 ### Swift Style Guide
 
-![Swift-Style-Guide](../img/iOS-Document-Collection/Swift-Style-Guide.png)
+![Swift-Style-Guide](<https://raw.githubusercontent.com/gwonii/gwonii.github.io/master/img/iOS-Document-Collection/Swift-Style-Guide.png>)
 
 > <https://github.com/raywenderlich/swift-style-guide>
 
