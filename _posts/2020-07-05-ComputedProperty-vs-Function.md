@@ -36,13 +36,11 @@ article_header:
 
 ## 본문
 
-### Computed Property와 Function 
+### 1) Computed Property와 Function이란? 
 
 1. **`Computed Property`**: 보통 연산프로퍼티라고 하며 property이지만 처음 값은 계산된 결과에 따라 바뀌게 된다. 
 
 <script src="https://gist.github.com/gwonii/9d5c399595f7926dcbc6e24d3a295eae.js"></script>
-
-[](script src="https://gist.github.com/gwonii/9d5c399595f7926dcbc6e24d3a295eae.js"></script)
 
 위 처럼 `name`는 일반적인 property라고 할 수 있다. 반면 계산된 결과에 따라 달라지는 `age`는 computed property이다. 
 
@@ -52,7 +50,7 @@ article_header:
 
 
 
-###  Computed Property와 Function의 차이점 
+###  2) Computed Property와 Function의 차이점 
 
 * **상태**와 **행동**
 
@@ -64,7 +62,7 @@ article_header:
 
 
 
-### Computed Property의 사용 
+### 3) Computed Property의 사용 
 
 프로젝트를 진행하면서 버튼의 활성화 상태를 가리키는 값을 사용게 되었다. 
 
