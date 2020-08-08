@@ -5,6 +5,7 @@ tags:
 - Swift
 - iOS
 - Swift_Grammar
+- Higher-order Function
 article_header:
   type: overlay
   theme: dark
@@ -19,6 +20,12 @@ article_header:
 <!--more-->
 
 # Map, Filter, Reduce
+
+
+
+## 고차함수 정의
+
+고차함수란 **다른 함수를 전달인자로 받거나** 함수실행의 **결과를 함수로 반환하는 함수**’를 뜻합니다.
 
 
 
