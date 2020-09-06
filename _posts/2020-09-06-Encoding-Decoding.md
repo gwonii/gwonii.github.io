@@ -31,19 +31,15 @@ JSON을 정리했으니, 인코딩, 디코딩도 한 번 정리해야죠??
 
 [gwonii 블로그, JSON 파헤치기](https://gwonii.github.io/2020/08/31/JSON.html)
 
-
-
-
-
 ## 정의
-
-
 
 **encoding**: 부호화하다. 
 
 `부호화`라는 것이 분야마다 다양하게 해석될 수 있지만, 컴퓨터 프로그래밍 관점에서는 
 
-`입력 데이터를 컴퓨터 속에서 사용하는 코드로 변환하는 것` 정도로 이해하면 좋을 것 같다. 
+**입력 데이터를 컴퓨터 속에서 사용하는 코드로 변환하는 것** 정도로 이해하면 좋을 것 같다. 
+
+
 
 
 
@@ -62,6 +58,8 @@ ex) Character Encoding
 
 
 
+
+
 **ASCII Code**: **American Standard Code for Information Interchange**
 
 말 그대로 미국에서 정의한 표준화된 부호체계이다. 
@@ -71,6 +69,10 @@ ex) Character Encoding
 아스키 코드는 7비트 즉, 128개의 고유한 값을 사용하여 문자열을 표현한다. 
 
 1바이트에서 1비트는 통신 에러 검출을 위해 사용된다.
+
+
+
+
 
 **사설**
 
@@ -104,9 +106,13 @@ A type that can convert itself into and out of an external representation
 
 
 
+
+
 인코딩과 디코딩을 설명하기 전에 `Codable`에 대해 알아보자. 
 
 `Codable`은 간단하게 얘기하면 `Encoding`과 `Decoding`을 합쳐놓은 것이다. 
+
+
 
 
 
@@ -126,9 +132,13 @@ A type that can encode itself to an external representation.
 
 
 
+
+
 이전의 개념을 적용해보자면, EX) JSON
 
 한 `Object`를 JSON의 형태로 변환할 수 있는 타입을 얘기한다. 
+
+
 
 
 
@@ -144,6 +154,10 @@ struct Person: Codable {
 위의 구조체는 `Codable` protocol을 채택하고 있다. 
 
 그렇기 때문에 `Econding`, `Decoding`을 할 수 있는 타입이 된다. 
+
+
+
+
 
 **Encoding**
 
@@ -176,9 +190,15 @@ encodePersonToJson(gwonii)
 
 
 
+
+
+
+
 **Formatter**
 
 `JSON` 형태를 `formatter`를 이용해서 보기좋게 표현할 수 있다. 
+
+
 
 
 
@@ -193,6 +213,8 @@ encoder.outputFormatting = .prettyPrinted
 { "name": "gwonii", "age": 28 }
 */
 ```
+
+
 
 
 
@@ -212,6 +234,8 @@ encoder.outputFormatting = .sortedKeys
 ```
 
 `sortedKeys`를 이용하게 되면 key값을 가지고 알파벳순으로 재정렬해준다. 
+
+
 
 
 
@@ -235,6 +259,8 @@ encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
 
 
 
+
+
 ### Decodable
 
 A type that can decode itself from an external representation.
@@ -243,7 +269,11 @@ A type that can decode itself from an external representation.
 
 
 
+
+
 `Encoding`과 반대로 `JSON`의 형태를 다시 `Object`로 변환시킬 수 있는 타입을 말한다. 
+
+
 
 
 
@@ -261,19 +291,19 @@ func decodeJsonToPerson(jsonString: String) -> Person? {
 }
 ```
 
-
-
 이 처럼 간단하게 `JSON`을 이용해서 `Encoding` & `Decoding`을 해보았다. 
+
+
 
 
 
 ### 추가 자료
 
-
-
 > 이 예시는 이전 post와 관련된 내용이므로 이해가 되지 않는다면 이전 포스트를 보고오세용
 >
 > [gwonii 블로그, JSON 파헤치기](https://gwonii.github.io/2020/08/31/JSON.html)
+
+
 
 
 
@@ -315,9 +345,13 @@ func postBadgeSetting(badgesData: [[String: Any]]) -> Single<BadgeResponse> {
 
 
 
+
+
 그리고 **Step2**에서 data 타입의 JSON을 String으로 변환하고 있다. 
 
 그런 다음 `request`에 담아 API 요청을 하는 모습을 볼 수 있다. 
+
+
 
 
 
