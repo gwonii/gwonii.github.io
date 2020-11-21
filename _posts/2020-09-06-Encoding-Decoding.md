@@ -72,8 +72,6 @@ ex) Character Encoding
 
 
 
-
-
 **사설**
 
 1바이트로 표현되는 경우: **SBCS(Single Byte Character Set)** 라고 한다. 
@@ -130,17 +128,21 @@ A type that can encode itself to an external representation.
 
 자신을 외부표현으로 인코딩 할 수 있는 타입
 
+<br/>
 
+이전의 개념을 적용해보자면, 
 
+EX) JSON
 
+한 `object` `JSONEncoder` 를 통해 Data 타입으로 만들 수 있다.
 
-이전의 개념을 적용해보자면, EX) JSON
+다시 말해 `JSON` 형태의 모양으로 컴퓨터가 이해할 수 있는 `Data`를 만들었다고 할 수 있다.
 
-한 `Object`를 JSON의 형태로 변환할 수 있는 타입을 얘기한다. 
+<br/>
 
+> 그냥 이전에 JSON을 사용해서 `JSONEncoder`를 사용했다. 그냥 `Encoder`를 사용해서도 `Data` 타입을 만들 수 있다. 
 
-
-
+<br/>
 
 **Example1**
 
@@ -155,9 +157,7 @@ struct Person: Codable {
 
 그렇기 때문에 `Econding`, `Decoding`을 할 수 있는 타입이 된다. 
 
-
-
-
+<br/>
 
 **Encoding**
 
@@ -188,19 +188,13 @@ encodePersonToJson(gwonii)
 
 ```
 
-
-
-
-
-
+<br/>
 
 **Formatter**
 
 `JSON` 형태를 `formatter`를 이용해서 보기좋게 표현할 수 있다. 
 
-
-
-
+<br/>
 
 **prettyPrinted**
 
@@ -214,9 +208,7 @@ encoder.outputFormatting = .prettyPrinted
 */
 ```
 
-
-
-
+<br/>
 
 **sortedKeys**
 
@@ -235,9 +227,7 @@ encoder.outputFormatting = .sortedKeys
 
 `sortedKeys`를 이용하게 되면 key값을 가지고 알파벳순으로 재정렬해준다. 
 
-
-
-
+<br/>
 
 **Formatting의 혼합사용**
 
@@ -267,13 +257,11 @@ A type that can decode itself from an external representation.
 
 자신을 외부표현에서 디코딩할 수 있는 타입
 
+<br/>
 
+`Encoding`과 반대로 `Data`의 형태를 다시 `Object`로 변환시킬 수 있는 타입을 말한다. 
 
-
-
-`Encoding`과 반대로 `JSON`의 형태를 다시 `Object`로 변환시킬 수 있는 타입을 말한다. 
-
-
+다시 말해 `Data` 타입에서 사람이 볼 수 있는 타입으로 변환된 것이다. 
 
 
 
@@ -293,9 +281,7 @@ func decodeJsonToPerson(jsonString: String) -> Person? {
 
 이 처럼 간단하게 `JSON`을 이용해서 `Encoding` & `Decoding`을 해보았다. 
 
-
-
-
+<br/>
 
 ### 추가 자료
 
