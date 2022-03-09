@@ -4,7 +4,7 @@ title: Computed Property vs Function
 tags:
 - Swift
 - iOS
-- Swift_Grammar
+- Swift Grammar
 article_header:
   type: overlay
   theme: dark
