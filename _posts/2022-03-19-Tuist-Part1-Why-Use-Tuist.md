@@ -22,7 +22,8 @@ article_header:
 
 ## 1. Tuist?
 
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Tuist-Git.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Tuist-Git.png?raw=true" alt="01" style="zoom: 67%;" />
+
 
 Tuist is a command line tool **(CLI)** that aims to facilitate the **generation**, **maintenance**, and **interaction** with Xcode projects.
 
@@ -46,22 +47,22 @@ Xcode가 무엇이기에 Xcode만 관리하는 라이브러리가 따로 있는 
 
 **프로젝트 파일은 `파일`, `리소스`, `모듈`, `앱 설정`, `계정정보`, `빌드 정보` 등 iOS와 관련된 모든 정보들을 담고 있는 파일이다.**
 
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Build-Phases.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Build-Phases.png?raw=true" alt="01" style="zoom: 67%;" />
 
 _Build Phases_
 
 <Br>
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Build-Setting.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Build-Setting.png?raw=true" alt="01" style="zoom: 67%;" />
 
 _Build Setting_
 
 <Br>
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Custom-Property.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Custom-Property.png?raw=true" alt="01" style="zoom: 67%;" />
 
 _Custom Target Property_
 
 <Br>
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Signing.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Signing.png?raw=true" alt="01" style="zoom: 67%;" />
 
 _Sigining_
 
@@ -99,7 +100,7 @@ xcshareddata > xcschemes 에 들어가게 되면 각 모듈별 정보들을 볼 
 > 이 파일의 reference 정보들은 각 작업자들마다 다르게 가지는 경우가 발생하게 된다. 
 > 이러한 경우에 merge를 하는 과정에 conflict을 겪에 되고 보기도 힘든 광경을 보게 된다. 
 
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Project-Conflict.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Project-Conflict.png?raw=true" alt="01" style="zoom: 67%;" />
 
 위와 같이 대규모 conflict이 발생되는 경우 해결하기가 여간 쉽지 않다. 개발자들은 자기만의 해결방법이 있겠지만 
 필자의 경우 타겟의 파일 전체의 reference 정보를 다시 제거하고 다시 설정하도록 했었다. 
@@ -119,7 +120,7 @@ xcshareddata > xcschemes 에 들어가게 되면 각 모듈별 정보들을 볼 
 프로젝트 파일 conflict 해결이 어려운 이유를 좀 더 상세히 보면
 하나의 파일을 생성하고 reference 정보가 생성되는 것이 우리가 생각하는 것 처럼 간단하지 않기 때문이다. 
 보통 파일을 하나 생성하게 되면
-<img src="../img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Project-Files.PNG" alt="01" style="zoom: 67%;" />
+<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-19-Tuist-Part1-Why-Use-Tuist-Image/Project-Files.png?raw=true" alt="01" style="zoom: 67%;" />
 위와 같이 여러 section에 변동사항이 발생하게 된다. 
 그런데 여러 개의 파일들이 충돌하게 되는 경우 우리가 저 section들의 정보들을 하나하나 찾아가면서 해결할 수 있을까? 
 
