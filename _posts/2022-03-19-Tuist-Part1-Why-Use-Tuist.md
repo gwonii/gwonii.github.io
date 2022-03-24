@@ -175,3 +175,4 @@ xcshareddata > xcschemes 에 들어가게 되면 각 모듈별 정보들을 볼 
 # 관련자료
 1. [Tuist github](https://github.com/tuist/tuist)
 2. [Xcode 프로젝트 파일](https://hcn1519.github.io/articles/2018-06/xcodeconfiguration)
+///
