@@ -68,13 +68,9 @@ struct TableCell: View {
 }
 ```
 
-<aside>
 💡 명령형 vs 선언형 프로그래밍 방식
-
-- `명령형` 프로그래밍은 **How** 에 대한 고민을 코드로 표현하였다. 
-- `선언형` 프로그래밍은 **What** 에 대한 고민을 코드로 표현하였다.
-
-</aside>
+- `명령형` 프로그래밍은 `How` 에 대한 고민을 코드로 표현하였다. 
+- `선언형` 프로그래밍은 `What` 에 대한 고민을 코드로 표현하였다.
 
 <Br>
 
@@ -82,13 +78,15 @@ struct TableCell: View {
 
 ## 1. 상속을 버리다.
 
+<Br>
+
 ### **기존 UI 상속의 문제점**
 
 UIKit은 모든 View들은 class로 구현되어 있다. 그런데 이렇게 Class로 구현되어 있는 View들은 겉보기에 아무 문제가 없지만 내부적으로 몇 가지 문제들을 내포하고 있다. 
 
 <Br>
 
-### 1) **수 많은 프로퍼티**
+1) **수 많은 프로퍼티**
 
 iOS 에서는 text를 표현하기 위하여 UILabel 이라는 View를 사용한다. 
 
@@ -104,7 +102,7 @@ UITextView의 상속관계는 `NSObject` - `UIResponder` - `UIView` - `UIScrollV
 
 <Br>
 
-### 2) **무한한 상속**
+2) **무한한 상속**
 
 가령 특수문자로 대화를 하는 세상이 왔다고 가정해보겠다. 
 
@@ -130,7 +128,7 @@ UITextView의 상속관계는 `NSObject` - `UIResponder` - `UIView` - `UIScrollV
 
 <Br>
 
-### 3) Class를 버리고 Struct를 채용하다
+3) **Class를 버리고 Struct를 채용하다**
 
 위와 같은 이유들로 class를 이용한 상속이 아닌 Struct를 이용하게 되었다. 
 
@@ -165,7 +163,9 @@ SwiftUI에서는 View 자체를 하나의 함수로 바라본다.
 
 반대로 class는 값들으 복사하는 것이 아니라 참조를 하는 방식이기 때문에 프로퍼티를 값을 변경하는 방식으로 View의 속성을 변경한다. 
 
-### 4) 상속이 아닌 확장
+<Br>
+
+4) **상속이 아닌 확장**
 
 **View에 frame을 설정하는 방법**
 
@@ -212,6 +212,8 @@ extension View {
 
 위와 같이 Text에 View의 frame 메소드를 확장하여 사용
 
+<Br>
+
 ## 3. 통합 플랫폼 UI 개발
 
 iOS, macOS, watchOS 등 모든 Apple 플랫폼에서 사용할 수 있는 통합 UI 코드를 개발할 수 있다. 
@@ -230,6 +232,8 @@ SwiftUI의 경우 App 을 채택하는 첫 화면 struct에 `@main` 키워드를
 (info file 에도 적용을 해주어야 하는가)
 
 기존의 iOS를 개발하기 위한 `UIKit`, macOS를 개발하기 위한 `AppKit`  들은 플램폿별로 Interface Builder를 가지고 있었다. 그렇기 때문에 iOS와 macOS 사이에 호환이 불가능하였다. 
+
+<Br>
 
 ## 4. 디자인 도구
 
