@@ -149,8 +149,8 @@ public final class SampleCoordinator: BaseCoordinator {
 
 한 번에 문제가 뭔지 보이는 사람도 있을지 모르지만 나는 이 문제를 해결하기 위하여 오전 시간이 날아갔다...
 
-### 이슈 원인
-원인은 간단했다. 
+### 이슈 원인 및 해결
+원인은 간단했고, 해결은 더 간단했다...
 
 **resolve 메소드를 호출하여 생성한 객체가 `struct` type 이었기 때문이다.**
 
@@ -158,6 +158,8 @@ public final class SampleCoordinator: BaseCoordinator {
 하지만 struct type의 경우 value type 이고 heap memory 에 주소값을 저장하지 않고 참조시마다 값을 복사한다.
 
 iOS를 배우면서 아주 기본적인 개념인 `class` vs `struct` 문제를 직접 겪어보니 뒷통수를 한 대 맞는 기분이었다... 
+
+그래서 코드는 `WebViewContainer` 를 struct에서 class로 수정했고, 이슈는 해결되었다~
 
 이래서 기본이 중요하다고 하는구나... 만약에 class와 struct의 개념조차 잘 모르고 있었다면 문제를 해결하기 더 어려웠을 것 같다는 생각이 들었다. 
 
