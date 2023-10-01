@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Xcode Debug View Hierarchy"를 사용하지 않고 UIWIndow 의 계층구조를 좀 더 쉽게 볼 수 있는 방법
+title: Terminal 을 통해 UIWindow 계층 구조 알아보기!
 tags:
 - iOS
 - Swift
@@ -13,7 +13,7 @@ article_header:
 
 ---
 
-- 
+"Xcode Debug View Hierarchy"를 사용하지 않고 UIWIndow 의 계층구조를 좀 더 쉽게 볼 수 있는 방법에 대해 알아보고자 한다.
 
 <!--more-->
 
