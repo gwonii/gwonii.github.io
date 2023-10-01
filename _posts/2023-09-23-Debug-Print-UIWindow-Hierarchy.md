@@ -25,15 +25,17 @@ article_header:
 
 # Contents
 
-## PrintHierarchy
+## PrintHierarchy with UIViewController
 
-``expr -l objc++ -O -- [[[UIWindow keyWindow] rootViewController] _printHierarchy]``
+```lldb
+expr -l objc++ -O -- [[[UIWindow keyWindow] rootViewController] _printHierarchy]
+```
 
 (lldb) 에서 위의 명렁어로 hierarchy 를 쉽게 볼 수 있었다. 
 
 그러면 결과값으로 
 
-```swift
+```lldb
 <UINavigationController 0x12183a000>, 
 	state: appeared, 
   view: <UILayoutContainerView: 0x12170fc20>
@@ -53,6 +55,13 @@ article_header:
 - 각 Controller 의 노출여부 ( state: appeared / state: disappeared )
 
 그래서 실제로 어떤 화면이 노출되어있고 노출되어 있지 않은지 알 수 있다. 
+
+## PrintHierarchy with UIView
+UIView 의 hierarchy 를 보려고 할 때는
+```lldb
+(lldb) expr -l objc -O -- [[[UIApplication sharedApplication] keyWindow] recursiveDescription]
+```
+를 통해 확인할 수 있다. 그런데 직접 사용해서 보니 UIWindow 에 있는 모든 UIView 계층을 보여주다보니 양이 엄청나다...
 
 ## lldb가 아닌 다른 방법 활용하기
 
@@ -85,7 +94,6 @@ extension UIViewController {
     }
 }
 ```
-
 와 같은 방식을 사용해볼 수도 있을 것 같다! 
 
 # Conclusion
