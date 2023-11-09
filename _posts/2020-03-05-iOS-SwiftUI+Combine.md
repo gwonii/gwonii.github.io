@@ -3,6 +3,7 @@ layout: article
 title: SwiftUI와 Combine 체험기
 tags:
 - iOS
+- Swift
 - SwiftUI
 - Combine
 article_header:

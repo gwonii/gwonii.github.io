@@ -2,6 +2,7 @@
 layout: article
 title: Binding data without RxSwift ( 번역 )
 tags:
+- iOS
 - Swift
 - RxSwift
 - DataBinding

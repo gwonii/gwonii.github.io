@@ -2,8 +2,9 @@
 layout: article
 title: DispatchQueue 알아보기
 tags:
-- Swift
 - iOS
+- Swift
+- Foundation
 - GCD
 - Thread
 - Sync&Async

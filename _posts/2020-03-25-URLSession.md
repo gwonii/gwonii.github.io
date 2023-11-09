@@ -3,7 +3,7 @@ layout: article
 title: URLSession을 이용한 네트워크 통신
 tags:
 - URLSession
-- network
+- Network
 - iOS
 - SwiftUI
 - Combine

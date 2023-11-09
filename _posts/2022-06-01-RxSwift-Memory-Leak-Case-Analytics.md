@@ -5,7 +5,7 @@ tags:
 - iOS
 - Swift
 - RxSwift
-- Memory
+- Library
 article_header:
   type: overlay
   theme: dark

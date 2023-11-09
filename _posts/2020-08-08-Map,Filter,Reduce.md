@@ -2,8 +2,8 @@
 layout: article
 title: Map, Filter, Reduce
 tags:
-- Swift
 - iOS
+- Swift
 - Swift Grammar
 - Higher-order Function
 article_header:
