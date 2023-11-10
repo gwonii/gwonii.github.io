@@ -2,7 +2,7 @@
 layout: article
 title: Encoding & Decoding
 tags:
-- Programming Basic
+- Computer Science
 article_header:
   type: overlay
   theme: dark

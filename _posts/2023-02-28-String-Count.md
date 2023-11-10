@@ -4,6 +4,7 @@ title: String count는 O(n)?
 tags:
 - iOS
 - Swift
+- Language
 article_header:
   type: overlay
   theme: dark

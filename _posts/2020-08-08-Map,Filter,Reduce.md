@@ -4,7 +4,7 @@ title: Map, Filter, Reduce
 tags:
 - iOS
 - Swift
-- Swift Grammar
+- Language
 - Higher-order Function
 article_header:
   type: overlay
