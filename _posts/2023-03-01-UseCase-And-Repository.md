@@ -12,8 +12,7 @@ article_header:
   background_image: false
 
 ---
-
-iOS 1년차 시절에 UseCase와 Repository를 중점적으로 Clean Architecture를 바라본 견해에 대해 적어보려고 한다. 
+CleanArchitecture 기반으로 코드 분석 및 리뷰를 위하여 분석한 내용이다.
 
 <!--more-->
 
@@ -48,7 +47,7 @@ DaouOffice에 적용되어 있는 **CleanArchitecture에 대한 이해를 넓히
     
     저자는 **이전의 아키텍처의 고민 사항들을 실행 가능한 하나의 아이디어로 통합**하려고 한다. 
     
-    ( 출처: CleanArchitecture 본문 214page )
+> ( 출처: CleanArchitecture 본문 214page )
 
 <img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2023-03-01-UseCase-And-Repository-With-CleanArchitecture/ca-1.png?raw=true" alt="01" style="zoom: 80%;" />
 
@@ -57,18 +56,18 @@ DaouOffice에 적용되어 있는 **CleanArchitecture에 대한 이해를 넓히
 
 모든 소프트웨어는 **사업적으로 수입을 얻기 위한 업무 규칙**을 가지고 있다. 
 
-**업무 규칙은 고수준의 개념**에 속하며 **UI, 데이터베이스, 프레임워크 등은 저수준의 개념**에 속한다. 
+**_업무 규칙은 고수준의 개념_**에 속하며 **UI, 데이터베이스, 프레임워크 등은 저수준의 개념**에 속한다. 
 
 **고수준의 개념과 저수준의 개념을 분리함으로써 소프트웨어는 넓은 확장성을 얻게 된다.** 
 
 여기서 중요한 것은 **고수준의 개념과 저수준의 개념 사이에 의존성 원칙**이 지켜져야 한다는 것이다.
 
-그리고 **의존성의 방향은 저수준에서 고수준의 방향**으로 가야 한다. 
+그리고 **_의존성의 방향은 저수준에서 고수준의 방향_**으로 가야 한다. 
 
 
 ( 원의 기준에서 중앙부일수록 고수준, 바깥쪽일수록 저수준을 의미한다. )
 
-_( 출처: CleanArchitecture 본문 200p )_
+> _( 출처: CleanArchitecture 본문 200p )_
 
 ex) 저자는 FitNesse를 만들 때 업무 규칙과 데이터베이스 사이에 경계선(분리)을 그었다.
 이 경계선을 통해 업무 규칙은 데이터 접근 메서드외에는 데이터베이스에 대해서는 어떤 것도 알지 못했다. 
@@ -78,7 +77,7 @@ ex) 저자는 FitNesse를 만들 때 업무 규칙과 데이터베이스 사이�
 
 ## 제어흐름과 의존성
 
-위에서 설명했듯이 **클린아키텍처는 고수준과 저수준의 개념을 분리하고 의존성 원칙을 따라야 한다**고 한다. 
+위에서 설명했듯이 **클린아키텍처는 고수준과 저수준의 개념을 분리하고 의존성 원칙을 따라야 한다.**고 한다. 
 
 그런데 많은 자료에서 혼란을 줄 수 있는 내용을 짚고 넘어가려고 한다.
 
@@ -100,7 +99,7 @@ _( 출처: https://velog.io/@cchloe2311/안드로이드-UseCase를-왜-쓰나요
 
 **고수준의 개념이 저수준의 개념을 호출해야 한다면 동적 다형성을 사용하여 제어흐름과는 반대방향으로 의존성을 역전시킬 수 있다.**
 
-_( 출처: CleanArhcitecture 본문 188p )_
+> _( 출처: CleanArhcitecture 본문 188p )_
 
 
 ## UseCase란?
@@ -116,7 +115,7 @@ _( 출처: CleanArhcitecture 본문 188p )_
 
 <img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2023-03-01-UseCase-And-Repository-With-CleanArchitecture/ca-4.png?raw=true" alt="01" style="zoom: 80%;" />
 
-_( 출처: Clean Architecture Guide (with tested examples): Data Flow != Dependency Rule 
+> _( 출처: Clean Architecture Guide (with tested examples): Data Flow != Dependency Rule 
 https://proandroiddev.com/clean-architecture-data-flow-dependency-rule-615ffdd79e29 )_
 
 ## 업무 규칙의 분리기준
@@ -127,7 +126,7 @@ https://proandroiddev.com/clean-architecture-data-flow-dependency-rule-615ffdd79
     ex) 주문 입력 시스템에서 주문을 추가하는 유스케이스는 주문을 삭제하는 유스케이스와는 틀림없이 
     다른 속도로, 그리고 다른 이유로 변경된다. 
     
-    ( 출처: CleanArchitecture 본문 160p )
+    > _( 출처: CleanArchitecture 본문 160p )_
     
 
 - 중복에 속아서는 안된다. 중복에는 **진짜 중복**과 **우발적 중복**이 있다. 두 코드의 영역이 각자의 결로 발전한다면, 즉 **서로 다른 속도와 다른 이류로 변경된다면 이 두 코드는 진짜 중복이 아니다.** 이러한 **우발적 중복에 속아 업무 규칙을 통일시키려는 실수를 범하지 말자**. 
@@ -148,7 +147,7 @@ https://proandroiddev.com/clean-architecture-data-flow-dependency-rule-615ffdd79
 
 추상화된 Repository 인터페이스를 두어서 Service가 이를 참조하고, 구체적인RDRepository가 이러한 인터페이스를 구현하게 된다면 소스코드의 의존성을 역전시킬 수 있습니다.
 
-_( 출처: [https://techblog.woowahan.com/2647/](https://techblog.woowahan.com/2647/) )_
+> _( 출처: [https://techblog.woowahan.com/2647/](https://techblog.woowahan.com/2647/) )_
 
 
 ### 부분적 경계 그리고 횡단하기
@@ -159,7 +158,7 @@ _( 출처: [https://techblog.woowahan.com/2647/](https://techblog.woowahan.com/2
 
 <img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2023-03-01-UseCase-And-Repository-With-CleanArchitecture/ca-7.png?raw=true" alt="01" style="zoom: 80%;" />
 
-_( 출처: CleanArchitecture 본문 230p )_
+> _( 출처: CleanArchitecture 본문 230p )_
 
 위와 같이 상황에서 비용을 줄이기 위해 **부분적 경계**를 구현해볼 수 있다. 
 
@@ -169,7 +168,7 @@ _( 출처: CleanArchitecture 본문 230p )_
 2. 파사드를 이용한 구현
 <img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2023-03-01-UseCase-And-Repository-With-CleanArchitecture/ca-9.png?raw=true" alt="01" style="zoom: 80%;" />
 
-_( 출처: CleanArchitecture 본문 231p )_
+> _( 출처: CleanArchitecture 본문 231p )_
 
 ## Repository란?
 
@@ -179,7 +178,7 @@ CleanArchitecture에서 "repository" 또는 "저장소" 라는 단어를 직접 
 
 어댑터, 말 그대로 **데이터베이스 또는 네트워크 등의 Data Source들을 domain layer에서 사용하기 편리한 형태로 제공**하는 역할을 한다. 
 
-_( 출처: CleanArchitecture 본문 217p )_
+> _( 출처: CleanArchitecture 본문 217p )_
 
 
 ## UseCase와 Repository의 의존성
@@ -192,8 +191,68 @@ _( 출처: CleanArchitecture 본문 217p )_
 아키텍처는 프레임워크에 대한 것이 아니다.
 좋은 아키텍처는 **유스케이스를 그 중심**에 두기 때문에 프레임워크나 도구, 환경에 전혀 구애받지 않고 유스케이스를 지원하는 구조를 아무런 문제 없이 기술할 수 있다.
 
-_( 출처: CleanArhcitecture 본문 208장 )_
+> _( 출처: CleanArhcitecture 본문 208장 )_
 
 - 위의 결론을 바탕으로 문제를 해결하기 위한 철칙
    1. 도메인 (useCase, entity)이 우선적으로 설정되어야 한다. 
    2. 도메인이 정확히 설정된다면 repository는 도메인을 도와주기 위한 수단에 불과하다.
+
+## 문제 해결
+### 1. AutoLogin & AccountLogin
+
+피드백 리뷰 과정에서 "AutoLogin과 AccountLogin 을 분리하는 것이 옳은 것이냐" 에 대한 문제에 정확히 답하지 못함. 
+
+해답: **AutoLogin과 AccountLogin은 다른 이유로 변경될 수 있는 업무 규칙이기 때문에 분리하는 것이 좋다.** 
+
+**AutoLogin:** 
+: `계정 정보 & 자동로그인 여부 확인` →  `세션 체크` 
+
+→ `세션 연결되어 있는경우 Today 화면`     
+→  `세션 끊겨있는 경우 재로그인 로직 수행`  → `Today 화면`
+
+**AccountLogin:** 
+: `계정 정보 입력` → `로그인 요청` → `Today 화면`
+
+**둘은 아예 다른 업무 규칙을 설명하고 있고 또한 액터의 요구사항이 전혀 다르다.** 이 말은 즉 다른 이유로 변경될 가능성이 농후하다는 것이다. 그렇다면 **LoginUseCase 하나를 사용하는 것이 아니라 AutoLogin과 AccountLogin으로 나누는 것이 적절하다.**
+
+
+### 2. 호스트 체크 & 업데이트 체크
+
+**기존 구현 방식:**
+호스트 체크 로직과 업데이트 체크 로직을 합쳐 하나의 UseCase로 구성하였다. 
+
+<br>
+<br>
+
+**문제점 1**
+
+  **호스트 체크와 업데이트 체크의 기능 분석이 잘못되었다.**
+위의 두 기능을 하나의 UseCase로 구현한 이유는 단순히 기존의 코드에서 호스트 체크와 업데이트 체크 기능이 같이 수행되었기 때문이다. 
+
+**하지만 호스트 체크와 업데이트 기능은 요구되는 시점이 다르다.** 
+
+**1. 호스트 체크 기능:** 
+
+- 입력된 호스트가 설치된 앱과 서비스 타입 또는 설치형 타입이 동일한지 확인한다.
+- 프로토콜을 타입을 확인한다.
+- 외부 로그인 여부를 확인한다.
+
+필요한 시점은 **호스트 입력화면**, **로그인 화면** 이다. 
+
+**2. 업데이트 체크 기능:**
+
+- 현재 버전이 최신 버전인지 확인한다.
+- 강제 업데이트 여부를 확인한다.
+
+ 
+
+필요한 시점은 **로그인된 후** ( 자동로그인, 로그인 화면 ), **Foreground 진입시** 이다. 
+
+위에서 확인할 수 있듯이 **호스트 체크 기능과 업데이트 기능의 요구시점이 다르기 때문에 하나의 UseCase로 묶는 것은 잘못**되었다. 
+<br>
+<br>
+**문제점 2**
+
+**호스트 체크와 업데이트 체크는 핵심 업무 규칙이 될 수 없다.** 
+
+문제점 1에서 두 기능의 요구 시점을 보면 **호스트 입력 화면, 로그인 화면, 인트로 화면, Foreground 진입** 이다. 

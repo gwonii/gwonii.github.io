@@ -4,7 +4,7 @@ title: Improvement of Authentication and Reauthentication
 tags:
 - iOS
 - Swift
-- Crash
+- Issue
 article_header:
   type: overlay
   theme: dark
