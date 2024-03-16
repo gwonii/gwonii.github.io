@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Improvement work on app crash
+title: Improvement of Authentication and Reauthentication
 tags:
 - iOS
 - Swift
