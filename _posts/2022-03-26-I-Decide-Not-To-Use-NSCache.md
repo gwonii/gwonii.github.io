@@ -23,8 +23,6 @@ NSCache와 Dictionary의 차이는 무엇이고 나는 무엇을 사용해야 �
 
 ## Background 
 
-<img src="https://github.com/gwonii/gwonii.github.io/blob/master/img/2022-03-26-I-Decide-Not-To-Use-NSCache-Image/Implement-Sample.png?raw=true" alt="01" style="zoom: 67%;" />
-
 새로운 기능 요구사항이 추가되었다.
 **"조직도와 대화방 리스트에 사용자의 실시간 근태상태를 노출시켜주고 싶습니다."**
 
