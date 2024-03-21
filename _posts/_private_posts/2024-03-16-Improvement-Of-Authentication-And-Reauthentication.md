@@ -1,20 +1,4 @@
----
-layout: article
-title: Improvement of Authentication and Reauthentication
-tags:
-- iOS
-- Swift
-- Issue
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#123'
-  background_image: false
-
----
-인증 및 재인증 개선을 위한 작업
-
-<!--more-->
+# Improvement of Authentication and Reauthentication
 
 # Background
 DaouOffice 앱에서 인증 및 재인증을 하는 과정에서 이슈 보고가 자주 들어왔고 확실히 뿌리를 해결하자는 요구사항이 들어왔다. 

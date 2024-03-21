@@ -1,20 +1,4 @@
----
-layout: article
-title: Improvement of UI Development Efficiency
-tags:
-- iOS
-- Swift
-- UIKit
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#123'
-  background_image: false
-
----
-UI 개발 효율성을 위한 작업
-
-<!--more-->
+# Improvement of UI Development Efficiency
 
 # Overview
 신규 프로젝트를 진행하게 되었는데 타이트한 일정이 주어졌다. 그래서 iOS 개발을 하는데 있어서 가장 시간이 많이 드는 부분을 고민하게 되었고, UI 작업에 드는  시간 비용이 크다는 것을 확인하였다. 그래서 UI 개발에 비용을 줄일 방법에 대한 논의를 하게되었다. 

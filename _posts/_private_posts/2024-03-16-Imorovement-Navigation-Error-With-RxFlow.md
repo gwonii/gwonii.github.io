@@ -1,21 +1,4 @@
----
-layout: article
-title: Improvement Navigation Error With RxFlow
-tags:
-- iOS
-- Swift
-- Navigation
-- RxFlow
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#123'
-  background_image: false
-
----
-RxFlow 화면 전환 오류 개선
-
-<!--more-->
+# Improvement Navigation Error With RxFlow
 
 # Background
 

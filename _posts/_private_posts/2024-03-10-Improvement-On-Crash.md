@@ -1,21 +1,4 @@
----
-layout: article
-title: Improvement work on app crash
-tags:
-- iOS
-- Swift
-- Crash
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#123'
-  background_image: false
-
----
-
-앱 크래쉬가 지속적으로 발생하여 근본적인 문제를 해결하여 앱 크래쉬율을 낮추고자 수행한 작업을 정리해보려고 한다.
-
-<!--more-->
+# Improvement work on app crash
 
 # Overview
 
