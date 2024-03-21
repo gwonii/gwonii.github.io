@@ -16,6 +16,3 @@ article_header:
 SonarQube 도입을 위한 여정
 
 <!--more-->
-
-
-// TODO: 작성 예정
