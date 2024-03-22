@@ -24,6 +24,7 @@ Crash 항목을 정리해봤을 때 크게 두 가지로 나눠볼 수 있었다
 
 1. Realm Object 생성 및 접근 오류
 2. Realm Memory 과부하 오류
+<br>
 
 ## 1. Realm Object 생성 및 접근 오류
 
@@ -33,6 +34,8 @@ Crash 항목을 정리해봤을 때 크게 두 가지로 나눠볼 수 있었다
 
 위 문제의 경우 원인이 분명하였다. 
 
+<br>
+
 **1. Realm 객체에 CRUD 를 요청시에 Realm 객체를 계속 생성시킨다.** 
 
 Realm 객체의 경우 Entity 에 따라 각 객체가 구분된다. (ex. ChannelRealm, MessageRealm, MemberRealm … )
@@ -41,11 +44,15 @@ Realm 객체의 경우 Entity 에 따라 각 객체가 구분된다. (ex. Channe
 
 그 결과 `aleardy opened` 와 같은 오류가 발생되었다. 
 
+<br>
+
 **2. Realm 객체 initialize와 access thread 가 main thread 이다.** 
 
 Realm Documents 에 따르면 Realm initialize와 access thread 는 `main thread` 또는 `SerialQueue` 를 사용하라고 가이드 되어있다. 또한 생성한 thread 에서 반드시 접근해야 한다.
 
 그런데 CRUD 요청시에 main thread 에서 Realm 객체를 생성 할 뿐만아니라 CRUD 작업을 수행하니 Thread 이슈가 발생될 수 밖에 없었다. 
+
+<br>
 
 ## 2. Realm Memory 과부하 오류
 
@@ -73,6 +80,8 @@ Realm Documents 에 따르면 Realm initialize와 access thread 는 `main thread
 
 Realm 에서는 생성 및 접근 Thread 가 동일해야 하므로 각 Entity 에 맞는 Realm 객체를 class 에 wrapping 하여 중간에 Thread 가 변경되지 않도록 하였다.
 
+<br>
+
 ## 2. Realm Memory 과부화 오류
 
 1. **TableView 내에 cell model 에서 각각 Realm 객체에 바인딩시키지 않고 TableView model 에서 관리할 수 있도록 하였다.** 
@@ -81,7 +90,9 @@ Realm 에서는 생성 및 접근 Thread 가 동일해야 하므로 각 Entity �
 
 뿐만 아니라 작은 단위의 View Model 에서 직접 DB 를 바인딩하고 있는 코드를 모두 제거하였다. 
 
-1. **단순 CRUD 요청시에 매번 확인하는 isInWriteTransaction 조건을 제거하였다.** 
+<br>
+
+2. **단순 CRUD 요청시에 매번 확인하는 isInWriteTransaction 조건을 제거하였다.** 
 
 ```swift
 /**
