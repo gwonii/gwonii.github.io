@@ -1,6 +1,6 @@
 ---
 layout: article
-title: (Mindset) 내가 하는 일의 이유와 의미를 아는 것의 힘
+title: "[Mindset] 내가 하는 일의 이유와 의미를 아는 것의 힘"
 tags:
 - mindset
 article_header:
