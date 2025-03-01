@@ -18,7 +18,7 @@ Tuist 를 이용하여 프로젝트 설계를 단계적으로 작성해보려고
 
 <!--more-->
 
-# 목표
+# 1. 목표
 - Tuist 를 이용하여 요구조건에 맞는 멀티 모듈 프로젝트를 구성한다.
 
 ## 요구사항
@@ -54,7 +54,7 @@ Tuist 를 이용하여 프로젝트 설계를 단계적으로 작성해보려고
 │   ├── ...
 ```
 
-# 수행
+# 2. 수행
 
 ## 환경
 - Tuist 4.40.0
@@ -319,7 +319,7 @@ let project = Project(
 )
 ```
 
-# 개선점
+# 3. 개선점
 1. TCA Wrapper Framework 구성하기
 2. "Package.swift" 파일 이용하여 Third Party 패키지 추가하기
 
@@ -336,5 +336,5 @@ let project = Project(
 - 만약 기존에 tuist cache 가 없다면 spm 을 추가하는데 시간이 걸릴 수 있다. 
 - 그래서 "Package.swift" 를 이용하여 `tuist install & tuist generate` 을 통해 SPM 을 구성한다면 개발 속도에 큰 도움이 될 것 같다. 
 
-# 맺음말
+# 4. 맺음말
 - 다음 편에서는 위의 개선점을 개선하고 Tuist 를 이용하여 KMP shared module 을 추가하는 방법을 작성해보려고 한다. 
