@@ -1,9 +1,10 @@
 ---
 layout: article
-title: "[Tuist] 멀티 모듈 초기 설계 및 구성하기 (1탄/N)" 
+title: "[TuistPlaygroud] Tuist로 구조설계 하기  (1탄/N)" 
 tags:
 - Tuist
 - Architecture
+- TuistPlayground
 article_header:
   type: overlay
   theme: dark
@@ -12,7 +13,7 @@ article_header:
 
 ---
 
-Tuist 를 이용하여 모듈 설계를 단계적으로 작성해보려고 한다. 
+Tuist 를 이용하여 프로젝트 설계를 단계적으로 작성해보려고 한다. 
 
 <!--more-->
 
@@ -20,9 +21,8 @@ Tuist 를 이용하여 모듈 설계를 단계적으로 작성해보려고 한�
 - Tuist 를 이용하여 요구조건에 맞는 멀티 모듈 프로젝트를 구성한다.
 
 ## 요구사항
-- Tuist 4.x 버전을 사용한다.
 - Feature는 UI, Presenter, UITest, PresenterTest 로 나눈다.
-- 프로젝트는 App (앱 모듈), Service(앱 모듈 이외의 모듈 모음) 로 구성한다. 
+- 프로젝트는 `AppStore` (앱 모듈), `Service` (앱 모듈 이외의 모듈 모음) 로 구성한다. 
 - swift-composable-architecture 라이브러리를 추가하여 UI, Presenter 에서 사용할 수 있도록 제공한다. 
 - Shared(KMP) 는 우선 제외한다.
 
@@ -54,6 +54,11 @@ Tuist 를 이용하여 모듈 설계를 단계적으로 작성해보려고 한�
 ```
 
 # 수행
+
+## 환경
+- Tuist 4.40.0
+- Xcode 16.2
+- Swift 6
 
 ## Tuist Project Helper 구현하기
 - 크게 AppTarget 과 FrameworkTarget 으로 구분한다. 
