@@ -4,6 +4,7 @@ title: "[TuistPlaygroud] Tuist로 구조설계 하기  (1탄/N)"
 tags:
 - Tuist
 - Architecture
+- iOS
 - TuistPlayground
 article_header:
   type: overlay
