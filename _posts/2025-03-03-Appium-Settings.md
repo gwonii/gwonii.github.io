@@ -2,9 +2,8 @@
 layout: article
 title: "[Appium] Appium 환경설정 하기 (1편)" 
 tags:
-- Apple Intelligence
-- AI
 - iOS
+- CI/CD
 article_header:
   type: overlay
   theme: dark

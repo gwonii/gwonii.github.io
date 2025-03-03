@@ -6,6 +6,7 @@ tags:
 - Swift
 - Dependency Injection
 - Design Pattern
+- Problem Solving
 article_header:
   type: overlay
   theme: dark
