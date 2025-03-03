@@ -35,7 +35,8 @@ ReactorKit 을 잘못 사용하고 있는 부분을 확인하고 개선해보고
 - `distinctUntilChanged` 가 누락되거나 `Equatable` 메소드를 새로 정의하지 않아 의미없는 변경에도 반복적으로 Local/Remote 데이터를 요청하였다. 
 
 ### 해결
-- TableView 의 Cell 에는 따로 Reactor 를 구성시키지 않도록 하였다. 
+- TableView 의 Cell 에는 따로 Reactor 를 구성시키지 않도록 하였다.
+  - 간혹 Cell 의 이벤트가 많은 경우, 이벤트 바인딩을 위한 용도로만 사용하였다.
 - View 전체의 Reactor 에서 Cell 데이터를 관리하고, Cell 에게는 View State 만 전달하는 방식으로 개선하였다. 
 - `Equatable` 메소드가 정의가 누락된 부분들을 찾아 새롭게 정의하였다. 
 - 또한 `Pulse` 와 `distinctUntilChanged` 를 사용하여 불필요한 변경은 무시될 수 있도록 개선하였다.
