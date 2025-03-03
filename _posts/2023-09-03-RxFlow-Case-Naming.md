@@ -1,6 +1,6 @@
 ---
 layout: article
-title: RxFlow 에서 Step 에 대한 고민 (DOING)
+title: RxFlow 에서 Step 에 대한 고민
 tags:
 - iOS
 - Swift
