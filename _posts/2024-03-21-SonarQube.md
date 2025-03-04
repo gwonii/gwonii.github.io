@@ -4,7 +4,7 @@ title: SonarQube 도입기
 tags:
 - iOS
 - Swift
-- 'CI/CD'
+- "CI/CD"
 article_header:
   type: overlay
   theme: dark

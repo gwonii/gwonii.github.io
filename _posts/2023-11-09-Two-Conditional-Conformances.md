@@ -2,9 +2,9 @@
 layout: article
 title: Two Conditional Conformances Error
 tags:
-- iOS
-- Swift
-- Language
+  iOS
+  Swift
+  Language
 article_header:
   type: overlay
   theme: dark

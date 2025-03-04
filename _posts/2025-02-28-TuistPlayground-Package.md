@@ -1,6 +1,7 @@
 ---
 layout: article
 title: '[TuistPlaygroud] Tuist 외부 의존성 추가하기  (2탄/N)'
+key: 2025022801
 tags:
 - Tuist
 - Architecture

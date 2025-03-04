@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "[Appium] Appium 테스트 코드 작성하기 (2편)" 
+key: 2025030402
 tags:
 - iOS
 - "CI/CD"
