@@ -11,7 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 라이브러를 하나 만드려고 하는데 RxSwift 없이 데이터 바인딩을 하고 싶다...

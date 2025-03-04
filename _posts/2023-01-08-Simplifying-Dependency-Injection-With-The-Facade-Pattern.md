@@ -12,7 +12,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 Facade를 이용한 Dependency Injection에 대한 블로그 내용을 번역하고 학습해보려고 합니다.

@@ -8,7 +8,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 JSON을 정리했으니, 인코딩, 디코딩도 한 번 정리해야죠?? 

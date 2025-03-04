@@ -12,7 +12,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 개발을 하는데 있어서 네트워크 통신은 기본이다. 그런데 iOS개발을 시작하고 제대로 네트워크 통신에 대해 공부해보지 못했다. 그래서 이번 기회에 회사 선배님의 코드도 이해할겸 URLSession을 이용하여 원초적인 네트워크 통신을 구현해보았다. 

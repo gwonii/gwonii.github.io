@@ -10,8 +10,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
-
 ---
 
 항상 개발을 할 때면 무엇을 사용하는 것이 가장 좋을까? 라는 고민을 많이 하게 된다. 오늘은 연산프로퍼티와 함수중에 특정 상황에 어떤 것을 쓰면 좋을지 고민해보려고 한다. 

@@ -11,7 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 NHN 회사에는 화면전환 Library로 RxFlow 를 사용하고 있는데 현재 작성된  Step 에 case 들을 보면서 "개선할 수 있는 부분이 있지 않을까?" 라는 질문을 시작으로 글을 써보려고 한다. 

@@ -11,8 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
-
 ---
 
 대표적인 고차함수인 Map, Filter, Reduce에 대해 알아보자... 

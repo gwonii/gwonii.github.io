@@ -13,7 +13,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 NSCache와 Dictionary의 차이는 무엇이고 나는 무엇을 사용해야 하는걸까?

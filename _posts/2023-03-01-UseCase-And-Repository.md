@@ -10,8 +10,8 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
+
 CleanArchitecture 기반으로 코드 분석 및 리뷰를 위하여 분석한 내용이다.
 
 <!--more-->

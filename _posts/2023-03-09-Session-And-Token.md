@@ -9,7 +9,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 network 쪽 공부를 하다가 session/token 정리 한 번 해두면 좋을 것 같아서 정리를 해본다.

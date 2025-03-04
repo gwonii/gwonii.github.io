@@ -11,7 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 오랜만에 이전에 공부했었던 SwiftUI를 왜 사용하는지에 대해 간단하게 정리해보려고 한다. 

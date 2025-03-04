@@ -11,7 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 이전에 Swinject에서 의존성 코드 작성중에 ObjectScope weak 를 사용하다가 발생된 이슈를 정리하려고 한다.

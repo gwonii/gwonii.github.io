@@ -12,7 +12,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 프로젝트 파일 관리의 어려움을 딛고 Tuist를 도입하려고 하는데...?

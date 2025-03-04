@@ -9,8 +9,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
-
 ---
 
 개인 프로젝트를 하면서 여러 라이브러리를 사용해보려고 하는데 앞으로 사용할 라이브러리에 대해 정리를 지속적으로 해보려고 한다. 

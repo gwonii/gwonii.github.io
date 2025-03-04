@@ -12,7 +12,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 RxSwift를 사용하다보면 순환참조로 인한 메모리 누수가 자주 일어나는데... 오늘 케이스 분석을 통해 같은 실수를 반복하지 말도록 해보아요...

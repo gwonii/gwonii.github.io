@@ -11,7 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 유지보수를 하는 과정에서 String의 count와 isEmpty의 속도 차이에 대해 알게 되었고 어떤 것이 좋을지에 대한 고민을 담아보려고 한다.
