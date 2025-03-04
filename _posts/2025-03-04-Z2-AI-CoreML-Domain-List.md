@@ -6,6 +6,7 @@ tags:
 - iOS
 - Swift
 - AI
+- CoreML
 article_header:
   type: overlay
   theme: dark
