@@ -3,7 +3,7 @@ layout: article
 title: 인터페이스 참조하기!
 tags:
 - Java
-- Effective Java   
+- 'Effective Java'
 article_header:
   type: overlay
   theme: dark

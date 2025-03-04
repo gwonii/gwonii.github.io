@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "[AI] Apple Intelligence 맛보기" 
+title: '[AI] Apple Intelligence 맛보기'
 tags:
-- Apple Intelligence
-- AI
-- iOS
+- 'Apple Intelligence'
+- 'AI'
+- 'iOS'
 article_header:
   type: overlay
   theme: dark

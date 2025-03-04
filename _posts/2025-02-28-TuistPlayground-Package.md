@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "[TuistPlaygroud] Tuist 외부 의존성 추가하기  (2탄/N)" 
+title: '[TuistPlaygroud] Tuist 외부 의존성 추가하기  (2탄/N)'
 tags:
 - Tuist
 - Architecture
-- Dependency Injection
+- 'Dependency Injection'
 - iOS
 - TuistPlayground
 article_header:

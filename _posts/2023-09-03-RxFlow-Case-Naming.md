@@ -1,11 +1,11 @@
 ---
 layout: article
-title: RxFlow 에서 Step 에 대한 고민
+title: 'RxFlow 에서 Step 에 대한 고민'
 tags:
 - iOS
 - Swift
 - Library
-- Problem Solving
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

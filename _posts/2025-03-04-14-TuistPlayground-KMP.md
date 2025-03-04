@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "[TuistPlaygroud] Tuist 로 KMP shared module 추가하기  (4탄/N)" 
+title: '[TuistPlaygroud] Tuist 로 KMP shared module 추가하기  (4탄/N)'
 tags:
-- iOS
-- Architecture
-- Dependency Injection
-- Tuist
-- TuistPlayground
+- 'iOS'
+- 'Architecture'
+- 'Dependency Injection'
+- 'Tuist'
+- 'TuistPlayground'
 article_header:
   type: overlay
   theme: dark

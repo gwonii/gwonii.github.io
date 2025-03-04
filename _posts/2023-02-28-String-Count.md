@@ -1,11 +1,11 @@
 ---
 layout: article
-title: String count는 O(n)?
+title: 'String count는 O(n)?'
 tags:
 - iOS
 - Swift
 - Language
-- Problem Solving
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

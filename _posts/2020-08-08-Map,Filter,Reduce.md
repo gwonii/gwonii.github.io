@@ -5,7 +5,7 @@ tags:
 - iOS
 - Swift
 - Language
-- Higher-order Function
+- 'Higher-order Function'
 article_header:
   type: overlay
   theme: dark

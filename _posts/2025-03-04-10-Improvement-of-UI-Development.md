@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "[Problem Solving] UI 개발 생산성 향상 작업" 
+title: '[Problem Solving] UI 개발 생산성 향상 작업'
 tags:
 - iOS
 - UI
 - UIKit
-- Problem Solving
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

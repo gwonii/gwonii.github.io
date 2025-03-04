@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "[TuistPlaygroud] Tuist cache 이용하기  (3탄/N)" 
+title: '[TuistPlaygroud] Tuist cache 이용하기  (3탄/N)'
 tags:
 - Tuist
 - Architecture
-- Dependency Injection
+- 'Dependency Injection'
 - iOS
 - TuistPlayground
 article_header:

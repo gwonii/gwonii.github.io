@@ -6,7 +6,7 @@ tags:
 - Swift
 - RxSwift
 - Library
-- Problem Solving
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

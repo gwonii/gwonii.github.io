@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[TuistPlaygroud] Tuist로 구조설계 하기  (1탄/N)" 
+title: '[TuistPlaygroud] Tuist로 구조설계 하기  (1탄/N)'
 tags:
 - Tuist
 - Architecture

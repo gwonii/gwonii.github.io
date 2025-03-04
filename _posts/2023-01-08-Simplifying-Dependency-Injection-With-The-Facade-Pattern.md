@@ -1,12 +1,12 @@
 ---
 layout: article
-title: Simplifying Dependency Injection with the Facade Design Pattern (번역)
+title: 'Simplifying Dependency Injection with the Facade Design Pattern (번역)'
 tags:
 - iOS
 - Swift
-- Dependency Injection
-- Design Pattern
-- Problem Solving
+- 'Dependency Injection'
+- 'Design Pattern'
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

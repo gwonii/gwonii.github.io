@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "[Appium] Appium 환경설정 하기 (1편)" 
+title: '[Appium] Appium 환경설정 하기 (1편)'
 tags:
-- "iOS"
-- "CI/CD"
+- 'iOS'
+- 'CI/CD'
 article_header:
   type: overlay
   theme: dark

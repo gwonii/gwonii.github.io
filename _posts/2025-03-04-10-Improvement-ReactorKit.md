@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "[Problem Solving] ReactorKit 관련 코드 개선 작업" 
+title: '[Problem Solving] ReactorKit 관련 코드 개선 작업'
 tags:
 - iOS
 - ReactorKit
 - RxSwift
-- Problem Solving
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

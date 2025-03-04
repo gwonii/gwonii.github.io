@@ -3,7 +3,7 @@ layout: article
 title: Immutable class 사용기
 tags:
 - Java
-- Immutable Class
+- 'Immutable Class'
 article_header:
   type: overlay
   theme: dark

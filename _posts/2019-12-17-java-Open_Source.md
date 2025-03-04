@@ -2,7 +2,7 @@
 layout: article
 title: 오픈소스를 준비하자   
 tags:
-- Open Source
+- 'Open Source'
 article_header:
   type: overlay
   theme: dark

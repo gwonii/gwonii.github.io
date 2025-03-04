@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "[Problem Solving] 주로 발생되는 Crash 정리" 
+title: '[Problem Solving] 주로 발생되는 Crash 정리'
 tags:
-- iOS
-- Swift
-- Crash
-- Problem Solving
+- 'iOS'
+- 'Swift'
+- 'Crash'
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

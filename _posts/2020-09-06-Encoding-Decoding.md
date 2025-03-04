@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Encoding & Decoding
+title: 'Encoding & Decoding'
 tags:
-- Computer Science
+- CS
 article_header:
   type: overlay
   theme: dark

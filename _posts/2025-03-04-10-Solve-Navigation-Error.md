@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "[Problem Solving] Navigation 오류 수정하기" 
+title: '[Problem Solving] Navigation 오류 수정하기'
 tags:
-- iOS
-- RxFlow
-- Problem Solving
+- 'iOS'
+- 'RxFlow'
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark

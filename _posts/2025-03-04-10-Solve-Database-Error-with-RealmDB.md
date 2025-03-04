@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "[Problem Solving] RealmDB 관련 크래시 해결하기" 
+title: '[Problem Solving] RealmDB 관련 크래시 해결하기'
 tags:
-- iOS
-- Database
-- RxRealm
-- Problem Solving
+- 'iOS'
+- 'Database'
+- 'RxRealm'
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark
