@@ -7,13 +7,12 @@ tags:
 - Foundation
 - GCD
 - Thread
-- Sync&Async
+- 'Sync&Async'
 article_header:
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 자주 보지만, 잘 알지 못했던 Dispatch Queue에 대해 알아보자...

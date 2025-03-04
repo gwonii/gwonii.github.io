@@ -7,7 +7,7 @@ tags:
 - Foundation
 - NSCache
 - Dictionary
-- 'Problem Solving'
+- ProblemSolving
 article_header:
   type: overlay
   theme: dark

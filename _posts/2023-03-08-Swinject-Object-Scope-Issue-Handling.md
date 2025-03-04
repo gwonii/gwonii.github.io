@@ -4,8 +4,8 @@ title: Swinject Library 에서 ObjectScope 사용시에 발생된 이슈 처리
 tags:
 - iOS
 - Swift
-- 'Dependency Injection'
-- 'Problem Solving'
+- DependencyInjection
+- ProblemSolving
 article_header:
   type: overlay
   theme: dark

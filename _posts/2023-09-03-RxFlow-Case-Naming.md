@@ -5,7 +5,7 @@ tags:
 - iOS
 - Swift
 - Library
-- 'Problem Solving'
+- ProblemSolving
 article_header:
   type: overlay
   theme: dark
