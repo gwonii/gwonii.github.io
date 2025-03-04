@@ -1,16 +1,15 @@
 ---
 layout: article
-title: "[Appium] Appium 테스트 코드 작성하기 (2편)" 
+title: '[Appium] Appium 테스트 코드 작성하기 (2편)'
 key: 2025030402
 tags:
 - iOS
-- "CI/CD"
+- 'CI/CD'
 article_header:
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 Appium 을 이용하여 테스트 코드를 작성하고 통합 테스트를 수행해본다. 

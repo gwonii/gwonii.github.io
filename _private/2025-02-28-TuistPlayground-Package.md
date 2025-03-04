@@ -13,7 +13,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 Tuist 를 이용하여 외부 의존성을 추가하고자 한다. 
