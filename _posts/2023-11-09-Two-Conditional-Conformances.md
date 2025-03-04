@@ -1,16 +1,16 @@
 ---
 layout: article
 title: Two Conditional Conformances Error
-tags:
-  iOS
-  Swift
-  Language
+key: 2023110901
+tags: 
+- iOS
+- Swift
+- Language
 article_header:
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 `swift-evolution/proposal/conditional-conformances` 를 보다가 두 개의 condition 을 설정할 수 없다는 것을 확인하고 당연하지만 몰랐던 사실이 있어 작성해보려고 한다. 

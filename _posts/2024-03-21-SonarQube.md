@@ -1,6 +1,7 @@
 ---
 layout: article
 title: SonarQube 도입기
+key: 2024032101
 tags:
 - iOS
 - Swift
@@ -10,7 +11,6 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-
 ---
 
 SonarQube 도입을 위한 여정
