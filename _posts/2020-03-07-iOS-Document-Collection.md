@@ -4,7 +4,6 @@ title: iOS 개발 참고 문서
 tags:
 - iOS
 - Swift
-- Document
 article_header:
   type: overlay
   theme: dark

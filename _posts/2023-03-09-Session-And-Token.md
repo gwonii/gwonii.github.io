@@ -2,7 +2,7 @@
 layout: article
 title: chatGPT로 면접 준비를 하다가 session/token 을 정리하다! (DOING)
 tags:
-- Programming Base
+- CS
 - Network
 article_header:
   type: overlay
