@@ -5,7 +5,7 @@ tags:
 - iOS
 - Swift
 - 'Dependency Injection'
-- Problem Solving
+- 'Problem Solving'
 article_header:
   type: overlay
   theme: dark
